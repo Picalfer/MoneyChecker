@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1071808344037",
+    "project_id": "onesignalapp-4be2d",
+    "storage_bucket": "onesignalapp-4be2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071808344037:android:417d3797bb038e3ed4890c",
+        "android_client_info": {
+          "package_name": "com.landfathich.moneychecker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071808344037-lmj1rgudstdprf4k4k2ocsedi732ci0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdRejb6SVduYJosyH-CamtntWmB9pw20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071808344037-lmj1rgudstdprf4k4k2ocsedi732ci0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071808344037:android:4a75557db5bd39a8d4890c",
+        "android_client_info": {
+          "package_name": "com.landfathich.onesignalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071808344037-lmj1rgudstdprf4k4k2ocsedi732ci0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtdRejb6SVduYJosyH-CamtntWmB9pw20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071808344037-lmj1rgudstdprf4k4k2ocsedi732ci0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
