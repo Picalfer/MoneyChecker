@@ -19,7 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:hint="@string/enter_name" />
+            android:hint="@string/enter_name"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/price"
@@ -29,7 +30,8 @@
             android:background="@android:color/transparent"
             android:gravity="center"
             android:hint="@string/enter_price"
-            android:inputType="number" />
+            android:inputType="number"
+            android:autofillHints="" />
 
         <Button
             android:id="@+id/add"

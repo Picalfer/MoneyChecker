@@ -1,3 +1,5 @@
 package com.landfathich.moneychecker
 
-class Product (val name: String, val price: String)
+import java.io.Serializable
+
+class Product (val name: String = "title", val price: Int = 0) : Serializable
