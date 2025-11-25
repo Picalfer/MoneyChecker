@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var dbRef: DatabaseReference
     private lateinit var database: FirebaseDatabase
+    private lateinit var recyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val name = findViewById<EditText>(R.id.name)
         val price = findViewById<EditText>(R.id.price)
         val add = findViewById<Button>(R.id.add)
-        val recyclerView = findViewById<RecyclerView>(R.id.items)
+        recyclerView = findViewById(R.id.items)
 
         // dbRef.removeValue()
 
@@ -59,6 +60,11 @@ class MainActivity : AppCompatActivity() {
         add.setOnClickListener {
             val product = Product(name.text.toString(), price.text.toString().toInt())
             dbRef.push().setValue(product)
+            scrollToStart()
         }
+    }
+
+    private fun scrollToStart() {
+        recyclerView.smoothScrollToPosition(0)
     }
 }
